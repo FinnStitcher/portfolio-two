@@ -7,6 +7,10 @@
     --six: #f8e5e5;
 }
 
+.row {
+    margin: 0;
+}
+
 .bg-one {
     background: var(--one);
 }
@@ -28,6 +32,10 @@
 }
 
 .bg-six {
+    background: var(--six);
+}
+
+body {
     background: var(--six);
 }
 
