@@ -1,0 +1,50 @@
+:root {
+    --one: #f8cdcd;
+    --two: #A25555;
+    --three: #393D74;
+    --four: #1E1A33;
+    --five: #9D7599;
+    --six: #f8e5e5;
+}
+
+.bg-one {
+    background: var(--one);
+}
+
+.bg-two {
+    background: var(--two);
+}
+
+.bg-three {
+    background: var(--three);
+}
+
+.bg-four {
+    background: var(--four);
+}
+
+.bg-five {
+    background: var(--five);
+}
+
+.bg-six {
+    background: var(--six);
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    color: var(--one);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--four);
+}

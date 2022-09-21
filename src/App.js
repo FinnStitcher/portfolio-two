@@ -7,7 +7,7 @@ function App() {
     <>
         <Header />
 
-        <main></main>
+        <main className="bg-six"></main>
 
         <Footer />
     </>
