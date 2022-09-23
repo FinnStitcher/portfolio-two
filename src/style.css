@@ -50,6 +50,19 @@
 }
 /* need to mark as important to override bootstrap */
 
+.mx-6 {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.card-title {
+    margin-top: 0.5rem;
+}
+
+.subtitle {
+    margin-bottom: 0.5rem;
+}
+
 body {
     background: var(--six);
 }
@@ -57,7 +70,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    height: 10vh;
+    min-height: 10vh;
 }
 
 footer {
@@ -79,4 +92,10 @@ a {
 
 a:hover {
     color: var(--four);
+}
+
+@media screen and (min-width: 768px) {
+.project-width {
+    width: calc(50% - 2.5rem);
+}
 }
