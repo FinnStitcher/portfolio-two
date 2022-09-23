@@ -6,14 +6,14 @@ function Resume() {
             <h1 className="text-center">Resume</h1>
 
             <div>
-                <p>Link to download resume goes here - maybe a button?</p>
+                <button className="d-block m-auto my-3 btn" type="button">Download Resume</button>
 
-                <div className="d-flex">
-                    <span>Skill</span>
-                    <span>Skill</span>
-                    <span>Skill</span>
-                    <span>Skill</span>
-                    <span>Skill</span>
+                <div className="d-flex gap-3 justify-content-center">
+                    <p>Skill</p>
+                    <p>Skill</p>
+                    <p>Skill</p>
+                    <p>Skill</p>
+                    <p>Skill</p>
                 </div>
             </div>
         </section>

@@ -35,6 +35,21 @@
     background: var(--six);
 }
 
+.border-right-five {
+    border-right: 2px solid var(--five);
+}
+
+.btn {
+    background: var(--five);
+    border: 0;
+}
+
+.btn:hover {
+    background: var(--three) !important;
+    color: var(--six) !important;
+}
+/* need to mark as important to override bootstrap */
+
 body {
     background: var(--six);
 }
@@ -42,6 +57,15 @@ body {
 header {
     position: sticky;
     top: 0;
+    height: 10vh;
+}
+
+footer {
+    height: 8vh;
+}
+
+main {
+    min-height: 82vh;
 }
 
 h2 {
