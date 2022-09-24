@@ -39,6 +39,14 @@
     border-right: 2px solid var(--five);
 }
 
+.dark-links a {
+    color: var(--two);
+}
+
+.dark-links a:hover, .dark-links a:focus {
+    color: var(--four);
+}
+
 .btn {
     background: var(--five);
     border: 0;
@@ -61,6 +69,25 @@
 
 .subtitle {
     margin-bottom: 0.5rem;
+}
+
+.image-container {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 20vh;
+    background-size: 100%;
+}
+
+#lightbox {
+    background-image: url('../public/images/lightbox.png');
+}
+
+#weather {
+    background-image: url('../public/images/weather.png');
+}
+
+#team-profile {
+    background-image: url('../public/images/team-profile.png');
 }
 
 body {
