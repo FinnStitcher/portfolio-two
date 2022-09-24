@@ -59,21 +59,6 @@ const projectsArray = [
     },
 
     {
-        id: "tech-news",
-        title: "Just Tech News",
-        technologies: [
-            "Express.js",
-            "Express Session",
-            "MySQL",
-            "Sequelize",
-            "Bcrypt"
-        ],
-        description: "A tech-focused blogging website, developed as a guided assignment from the WashU Bootcamp.",
-        githubLink: "https://github.com/FinnStitcher/just-tech-news",
-        deployedLink: "https://peaceful-inlet-82480.herokuapp.com/"
-    },
-
-    {
         id: "deep-thoughts",
         title: "Deep Thoughts",
         technologies: [

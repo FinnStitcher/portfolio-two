@@ -94,6 +94,10 @@
     background-image: url('../public/images/shelter.png');
 }
 
+#deep-thoughts {
+    background-image: url('../public/images/deep-thoughts.png');
+}
+
 body {
     background: var(--six);
 }
