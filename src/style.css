@@ -90,6 +90,10 @@
     background-image: url('../public/images/team-profile.png');
 }
 
+#shelter {
+    background-image: url('../public/images/shelter.png');
+}
+
 body {
     background: var(--six);
 }

@@ -13,7 +13,7 @@ const projectsArray = [
             "Handlebars.js",
             "Luxon"
         ],
-        description: "Lightbox is a tech-blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
+        description: "Lightbox is a blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
         githubLink: 'https://github.com/FinnStitcher/lightbox',
         deployedLink: 'https://lightbox-fs.herokuapp.com/'
     },
@@ -40,6 +40,51 @@ const projectsArray = [
         ],
         description: "A command-line application with complex promise-based architecture. Give it your team's info, and it'll generate an HTML page for you.",
         githubLink: "https://github.com/FinnStitcher/team-profile-generator",
+        deployedLink: null
+    },
+
+    {
+        id: "shelter",
+        title: "Endless Pawsibilities",
+        technologies: [
+            "MySQL",
+            "Sequelize",
+            "Express.js",
+            "Handlebars",
+            "JavaScript"
+        ],
+        description: "A mock animal-management tool for shelter employees. I worked on this with two teammates and created the database and assisted with frontend styles and form control.",
+        githubLink: "https://github.com/sarameadows/project2",
+        deployedLink: "https://project2-sm.herokuapp.com/"
+    },
+
+    {
+        id: "tech-news",
+        title: "Just Tech News",
+        technologies: [
+            "Express.js",
+            "Express Session",
+            "MySQL",
+            "Sequelize",
+            "Bcrypt"
+        ],
+        description: "A tech-focused blogging website, developed as a guided assignment from the WashU Bootcamp.",
+        githubLink: "https://github.com/FinnStitcher/just-tech-news",
+        deployedLink: "https://peaceful-inlet-82480.herokuapp.com/"
+    },
+
+    {
+        id: "deep-thoughts",
+        title: "Deep Thoughts",
+        technologies: [
+            "React",
+            "React Router",
+            "MongoDB",
+            "Mongoose",
+            "JWT authentication"
+        ],
+        description: "A social media website wherein users share and react to \"thoughts\" and make friends. Developed over one week as a guided assignment from the WashU Bootcamp.",
+        githubLink: "https://github.com/FinnStitcher/deep-thoughts-two",
         deployedLink: null
     }
 ];
