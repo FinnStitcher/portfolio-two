@@ -91,7 +91,7 @@ function Project({projectObj}) {
     const {id, title, technologies, description, githubLink, deployedLink} = projectObj;
 
     return (
-        <div className="col-12 col-md-6 project-width">
+        <div className="col-12 col-md-6 project-width my-3">
             <div className="image-container" id={id}>
             </div>
             
