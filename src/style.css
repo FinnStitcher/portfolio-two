@@ -98,6 +98,10 @@
     background-image: url('../public/images/deep-thoughts.png');
 }
 
+#pizza {
+    background-image: url('../public/images/pizza.png');
+}
+
 body {
     background: var(--six);
 }

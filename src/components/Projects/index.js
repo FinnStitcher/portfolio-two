@@ -68,9 +68,22 @@ const projectsArray = [
             "Mongoose",
             "JWT authentication"
         ],
-        description: "A social media website wherein users share and react to \"thoughts\" and make friends. Developed over one week as a guided assignment from the WashU Bootcamp.",
+        description: "A social media website wherein users share and react to \"thoughts\" and make friends.",
         githubLink: "https://github.com/FinnStitcher/deep-thoughts-two",
-        deployedLink: null
+        deployedLink: "https://deep-thoughts-fs.herokuapp.com/"
+    },
+
+    {
+        id: "pizza",
+        title: "Pizza Hunt",
+        technologies: [
+            "MongoDB",
+            "Mongoose",
+            "Express.js"
+        ],
+        description: "On Pizza Hunt, users can upload customized pizzas to the database and have them publically displayed, where they can be discussed in comment threads.",
+        githubLink: "https://github.com/FinnStitcher/pizza-hunt",
+        deployedLink: "https://pizza-hunt-fs.herokuapp.com/"
     }
 ];
 
@@ -97,7 +110,6 @@ function Project({projectObj}) {
 };
 
 function Projects() {
-    // maybe i should redo this as an array.map?
 	return (
 		<section>
 			<h1 className="text-center">Projects</h1>
