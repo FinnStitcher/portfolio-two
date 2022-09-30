@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -7,15 +7,32 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
+    const [components] = useState([
+        {
+            href: '#about',
+            component: <About />
+        },
+        {
+            href: '#projects',
+            component: <Projects />
+        },
+        {
+            href: '#resume',
+            component: <Resume />
+        },
+        {
+            href: '#contact',
+            component: <Contact />
+        },
+    ]);
+    const [currentComp, setCurrentComp] = useState(components[0]);
+
   return (
     <>
-        <Header />
+        <Header components={components} currentComp={currentComp} setCurrentComp={setCurrentComp} />
 
         <main>
-            <About />
-            <Resume />
-            <Projects />
-            <Contact />
+            {currentComp.component}
         </main>
 
         <Footer />

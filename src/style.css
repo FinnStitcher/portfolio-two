@@ -47,6 +47,10 @@
     color: var(--four);
 }
 
+.nav-active {
+    color: var(--four);
+}
+
 .btn {
     background: var(--five);
     border: 0;
@@ -117,7 +121,7 @@ footer {
 }
 
 main {
-    min-height: 82vh;
+    min-height: 80vh;
 }
 
 h2 {
