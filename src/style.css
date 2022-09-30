@@ -116,8 +116,9 @@ header {
     min-height: 10vh;
 }
 
-footer {
-    height: 8vh;
+footer a {
+    font-size: 1.75em;
+    padding: 0.06em 0;
 }
 
 main {
