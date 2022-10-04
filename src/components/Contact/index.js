@@ -36,7 +36,7 @@ function Contact() {
 	}
 
 	return (
-		<section className="my-3 m-auto w-50">
+		<section className="my-3 m-auto col-md-6">
 			<h1 className="text-center">Contact</h1>
 
 			<form onSubmit={handleSubmit}>
