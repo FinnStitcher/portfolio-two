@@ -67,6 +67,10 @@
     margin-left: 6rem;
 }
 
+.w-fit {
+    width: fit-content;
+}
+
 .card-title {
     margin-top: 0.5rem;
 }

@@ -6,8 +6,10 @@ function Header(props) {
     function onClickHandler(event) {
         const index = parseInt(event.target.getAttribute('index'));
 
-        if (typeof index === 'number') {
+        if (isNaN(index) === false) {
             setCurrentComp(components[index]);
+        } else {
+            return false;
         }
     };
 
