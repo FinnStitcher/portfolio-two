@@ -11,7 +11,7 @@ function About() {
                 </div>
 
                 <div className="col-12 col-sm-4 py-2">
-                    <p>Description of myself goes here. :)</p>
+                    <p>Finn Phillips is a full-stack web developer with a passion for programming. She knows any successful, future-proof app must include a robust, scalable API and database, and loves to see the front-end come to life. Having completed an intense full-stack course, Finn hopes to see her old programming hobby finally become a strong career in the tech sector.</p>
                 </div>
             </div>
         </section>
