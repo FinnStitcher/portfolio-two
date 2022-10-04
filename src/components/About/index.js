@@ -7,7 +7,7 @@ function About() {
 
             <div className="d-flex justify-content-center">
                 <div className="col-12 col-sm-4 pe-3 me-3 border-right-five">
-                    <img className="float-end" alt="placeholder" src="https://via.placeholder.com/200" />
+                    <img className="float-end w-100" alt="Myself" src={require('../../assets/photo.png')} />
                 </div>
 
                 <div className="col-12 col-sm-4 py-2">
