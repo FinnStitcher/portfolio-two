@@ -2,6 +2,24 @@ import React from 'react';
 
 const projectsArray = [
     {
+        id: "apply",
+        title: "APPly",
+        technologies: [
+            "GraphQL",
+            "Apollo Express",
+            "React",
+            "React Router",
+            "React Bootstrap",
+            "JSON Web Tokens",
+            "Mongoose",
+            "MongoDB"
+        ],
+        description: "Finding a new job can be hectic and confusing - that's why APPly is here, to help you keep track of where you are in your search.",
+        githubLink: "https://github.com/sarameadows/APPly",
+        deployedLink: "https://apply-portal.herokuapp.com/"
+    },
+
+    {
         id: "lightbox",
         title: "Lightbox",
         technologies: [
