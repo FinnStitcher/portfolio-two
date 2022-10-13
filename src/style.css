@@ -110,6 +110,11 @@
     background-image: url('../public/images/pizza.png');
 }
 
+#apply {
+    background-image: url('../public/images/apply.png');
+    background-position: center;
+}
+
 body {
     background: var(--six);
 }
