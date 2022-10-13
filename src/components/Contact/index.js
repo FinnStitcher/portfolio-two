@@ -39,6 +39,8 @@ function Contact() {
 		<section className="my-3 m-auto col-md-6">
 			<h1 className="text-center">Contact</h1>
 
+            <p class="dark-links">Reach me at <a href="mailto:foundfootage@protonmail.com" >foundfootage@protonmail.com</a>, and I'll get back to you within three days.</p>
+
 			<form onSubmit={handleSubmit}>
 				<div className="mb-2">
 					<label className="form-label mb-1" htmlFor="name">
