@@ -41,7 +41,7 @@ function Contact() {
 
             <p class="dark-links">Reach me at <a href="mailto:foundfootage@protonmail.com" >foundfootage@protonmail.com</a>, and I'll get back to you within three days.</p>
 
-			<form onSubmit={handleSubmit}>
+			{/* <form onSubmit={handleSubmit}>
 				<div className="mb-2">
 					<label className="form-label mb-1" htmlFor="name">
 						Name:
@@ -86,7 +86,7 @@ function Contact() {
 				<button className="d-block m-auto my-3 btn" type="submit">
 					Submit
 				</button>
-			</form>
+			</form> */}
 		</section>
 	);
 }
