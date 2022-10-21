@@ -9,7 +9,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faGithub} />
             </a>
 
-            <a href="https://www.linkedin.com/in/diana-phillips-518b46238/">
+            <a href="https://www.linkedin.com/in/finn-phillips-518b46238/">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
 
