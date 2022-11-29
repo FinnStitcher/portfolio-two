@@ -115,6 +115,15 @@
     background-position: center;
 }
 
+#libre-library {
+    background-image: url('../public/images/library.png');
+    background-position: center;
+}
+
+#wildfound {
+    background-image: url('../public/images/wildfound.png');
+}
+
 body {
     background: var(--six);
 }
