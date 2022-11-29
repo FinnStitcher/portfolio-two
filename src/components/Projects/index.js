@@ -33,7 +33,36 @@ const projectsArray = [
         ],
         description: "Lightbox is a blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
         githubLink: 'https://github.com/FinnStitcher/lightbox',
-        deployedLink: 'https://lightbox-fs.herokuapp.com/'
+        deployedLink: 'ec2-13-52-212-160.us-west-1.compute.amazonaws.com'
+    },
+
+    {
+        id: "libre-library",
+        title: "Libre Library",
+        technologies: [
+            "React",
+            "Express",
+            "Apollo Express",
+            "GraphQL",
+            "MongoDB"
+        ],
+        description: "Search for your favorite books and save them to your personal, digital library, accessible only to you.",
+        githubLink: "https://github.com/FinnStitcher/libre-library",
+        deployedLink: "https://libre-library-production.up.railway.app/"
+    },
+
+    {
+        id: "wildfound",
+        title: "Wildfound",
+        technologies: [
+            "Express",
+            "Handlebars.js",
+            "MySQL",
+            "Sequelize"
+        ],
+        description: "Explore a conservation database through layers of geographic and taxonomic division.",
+        githubLink: "https://github.com/FinnStitcher/wildfound",
+        deployedLink: "https://wildfound-production.up.railway.app/"
     },
 
     {
@@ -88,20 +117,7 @@ const projectsArray = [
         ],
         description: "A social media website wherein users share and react to \"thoughts\" and make friends.",
         githubLink: "https://github.com/FinnStitcher/deep-thoughts-two",
-        deployedLink: "https://deep-thoughts-fs.herokuapp.com/"
-    },
-
-    {
-        id: "pizza",
-        title: "Pizza Hunt",
-        technologies: [
-            "MongoDB",
-            "Mongoose",
-            "Express.js"
-        ],
-        description: "On Pizza Hunt, users can upload customized pizzas to the database and have them publically displayed, where they can be discussed in comment threads.",
-        githubLink: "https://github.com/FinnStitcher/pizza-hunt",
-        deployedLink: "https://pizza-hunt-fs.herokuapp.com/"
+        deployedLink: "https://deep-thoughts-two-production.up.railway.app/"
     }
 ];
 
