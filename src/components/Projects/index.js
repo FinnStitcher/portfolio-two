@@ -15,8 +15,7 @@ const projectsArray = [
             "MongoDB"
         ],
         description: "Finding a new job can be hectic and confusing - that's why APPly is here, to help you keep track of where you are in your search.",
-        githubLink: "https://github.com/sarameadows/APPly",
-        deployedLink: "https://apply-portal.herokuapp.com/"
+        githubLink: "https://github.com/sarameadows/APPly"
     },
 
     {
@@ -33,7 +32,7 @@ const projectsArray = [
         ],
         description: "Lightbox is a blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
         githubLink: 'https://github.com/FinnStitcher/lightbox',
-        deployedLink: 'ec2-13-52-212-160.us-west-1.compute.amazonaws.com'
+        deployedLink: 'http://ec2-13-52-212-160.us-west-1.compute.amazonaws.com'
     },
 
     {
@@ -58,7 +57,8 @@ const projectsArray = [
             "Express",
             "Handlebars.js",
             "MySQL",
-            "Sequelize"
+            "Sequelize",
+            "Tailwind"
         ],
         description: "Explore a conservation database through layers of geographic and taxonomic division.",
         githubLink: "https://github.com/FinnStitcher/wildfound",
@@ -101,8 +101,7 @@ const projectsArray = [
             "JavaScript"
         ],
         description: "A mock animal-management tool for shelter employees. I worked on this with two teammates and created the database and assisted with frontend styles and form control.",
-        githubLink: "https://github.com/sarameadows/project2",
-        deployedLink: "https://project2-sm.herokuapp.com/"
+        githubLink: "https://github.com/sarameadows/project2"
     },
 
     {
