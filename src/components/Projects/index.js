@@ -28,7 +28,8 @@ const projectsArray = [
             "Sequelize",
             "Bcrypt",
             "Handlebars.js",
-            "Luxon"
+            "Luxon",
+            "Amazon EC2"
         ],
         description: "Lightbox is a blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
         githubLink: 'https://github.com/FinnStitcher/lightbox',
@@ -58,7 +59,8 @@ const projectsArray = [
             "Handlebars.js",
             "MySQL",
             "Sequelize",
-            "Tailwind"
+            "Tailwind",
+            "Amazon RDS"
         ],
         description: "Explore a conservation database through layers of geographic and taxonomic division.",
         githubLink: "https://github.com/FinnStitcher/wildfound",
