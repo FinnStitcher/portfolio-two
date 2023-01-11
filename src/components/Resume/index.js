@@ -4,7 +4,7 @@ import resumeFile from '../../assets/Resume.pdf';
 function Resume() {
 	return (
 		<section className="my-3">
-			<h1 className="text-center">Resume</h1>
+			<h1 className="text-center mb-3">Resume</h1>
 
 			<div>
 				<a

@@ -35,6 +35,10 @@
     background: var(--six);
 }
 
+.border-one {
+    border: 2px solid var(--one);
+}
+
 .border-right-five {
     border-right: 2px solid var(--five);
 }
