@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeFile from '../../assets/Resume.pdf';
 
 function About() {
     return (
@@ -9,7 +10,7 @@ function About() {
                 </div>
 
                 <div className="col-12 col-md-4 py-2">
-                    <div className="mb-4">
+                    <div className="mb-md-5">
                         <h1>Warm regards.</h1>
 
                         <p>I'm Finn. I like to code.</p>
@@ -21,9 +22,9 @@ function About() {
                         <p className="bg-two text-light rounded-pill px-2 mb-0">MySQL</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">MongoDB</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">GraphQL</p>
-                        <p className="bg-two text-light rounded-pill px-2 mb-0">React.js</p>
-                        <p className="bg-two text-light rounded-pill px-2 mb-0">Express.js</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">Node.js</p>
+                        <p className="bg-two text-light rounded-pill px-2 mb-0">Express.js</p>
+                        <p className="bg-two text-light rounded-pill px-2 mb-0">React.js</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">Amazon Web Services</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">User Sessions</p>
                         <p className="bg-two text-light rounded-pill px-2 mb-0">JSON Web Tokens</p>
@@ -34,10 +35,26 @@ function About() {
                         <p className="bg-five text-light rounded-pill px-2 mb-0">Observation</p>
                         <p className="bg-five text-light rounded-pill px-2 mb-0">Collaboration</p>
                         <p className="bg-five text-light rounded-pill px-2 mb-0">Problem-Solving</p>
-                        <p className="bg-five text-light rounded-pill px-2 mb-0">Drive to Succeed</p>
+                        <p className="bg-five text-light rounded-pill px-2 mb-0">Persistence</p>
                         <p className="bg-five text-light rounded-pill px-2 mb-0">Desire to Learn</p>
+                        <p className="bg-five text-light rounded-pill px-2 mb-0">Drive to Succeed</p>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <div>
+                    <a
+                        className="d-block m-auto my-3 btn col-8 col-md-3"
+                        href={resumeFile}
+                        download="Finn Phillips Resume"
+                        target="_blank"
+                        rel="noreferrer"
+                        role="button"
+                    >
+                        Download my resume.
+                    </a>
+			    </div>
             </div>
         </section>
     )

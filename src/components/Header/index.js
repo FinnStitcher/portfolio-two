@@ -24,9 +24,7 @@ function Header(props) {
 
                 <a href="#projects" className={`ms-3 ${currentComp.href === '#projects' && 'nav-active'}`} index="1">Projects</a>
 
-                <a href="#resume" className={`ms-3 ${currentComp.href === '#resume' && 'nav-active'}`} index="2">Resume</a>
-
-                <a href="#contact" className={`ms-3 ${currentComp.href === '#contact' && 'nav-active'}`} index="3">Contact</a>
+                <a href="#contact" className={`ms-3 ${currentComp.href === '#contact' && 'nav-active'}`} index="2">Contact</a>
             </nav>
         </header>
     )

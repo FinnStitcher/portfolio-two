@@ -39,8 +39,20 @@
     border: 2px solid var(--one);
 }
 
+.border-five {
+    border: 2px solid var(--five);
+}
+
+hr.border-five {
+    border-width: 1px;
+}
+
 .border-right-five {
     border-right: 2px solid var(--five);
+}
+
+.border-top-five {
+    border-top: 2px solid var(--five);
 }
 
 .dark-links a {
@@ -56,13 +68,13 @@
 }
 
 .btn {
-    background: var(--five);
+    background: var(--three);
+    color: var(--six);
     border: 0;
 }
 
 .btn:hover {
-    background: var(--three) !important;
-    color: var(--six) !important;
+    background: var(--five) !important;
 }
 /* need to mark as important to override bootstrap */
 
@@ -88,6 +100,15 @@
     border-bottom-right-radius: 10px;
     height: 20vh;
     background-size: 100%;
+}
+
+.footer-social-links {
+    font-size: 1.75em;
+    padding: 0.06em 0;
+}
+
+.footer-contact-links {
+    font-size: 1.25em;
 }
 
 #lightbox {
@@ -136,11 +157,6 @@ header {
     position: sticky;
     top: 0;
     min-height: 10vh;
-}
-
-footer a {
-    font-size: 1.75em;
-    padding: 0.06em 0;
 }
 
 main {
