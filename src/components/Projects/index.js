@@ -55,7 +55,7 @@ const projectsArray = [
         ],
         description: "Search for your favorite books and save them to your personal, digital library, accessible only to you.",
         isSolo: false,
-        role: "GraphQL Developer, Client Integration",
+        role: "GraphQL and ODM Developer, Bugfixer",
         githubLink: "https://github.com/FinnStitcher/libre-library",
         deployedLink: "https://libre-library-production.up.railway.app/"
     },
