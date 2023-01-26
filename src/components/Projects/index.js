@@ -15,6 +15,7 @@ const projectsArray = [
         ],
         description: "Explore a conservation database through layers of geographic and taxonomic division.",
         isSolo: true,
+        isAcademic: false,
         role: "Full-stack Developer",
         githubLink: "https://github.com/FinnStitcher/wildfound",
         deployedLink: "https://wildfound-production.up.railway.app/"
@@ -36,6 +37,7 @@ const projectsArray = [
         ],
         description: "Lightbox is a blogging website with a minimalist UI and aesthetic, so you can focus on what's important.",
         isSolo: true,
+        isAcademic: true,
         role: "Full-stack Developer",
         githubLink: 'https://github.com/FinnStitcher/lightbox',
         deployedLink: 'http://ec2-13-52-212-160.us-west-1.compute.amazonaws.com'
@@ -55,6 +57,7 @@ const projectsArray = [
         ],
         description: "Search for your favorite books and save them to your personal, digital library, accessible only to you.",
         isSolo: false,
+        isAcademic: true,
         role: "GraphQL and ODM Developer, Bugfixer",
         githubLink: "https://github.com/FinnStitcher/libre-library",
         deployedLink: "https://libre-library-production.up.railway.app/"
@@ -77,6 +80,7 @@ const projectsArray = [
         ],
         description: "Finding a new job can be hectic and confusing - that's why APPly is here, to help you keep track of where you are in your search.",
         isSolo: false,
+        isAcademic: true,
         role: "GraphQL Developer, ORM Creator, Bugfixer",
         githubLink: "https://github.com/sarameadows/APPly"
     },
@@ -111,6 +115,7 @@ const projectsArray = [
         ],
         description: "A social media website wherein users share and react to \"thoughts\" and make friends.",
         isSolo: false,
+        isAcademic: true,
         role: "GraphQL Developer, Client Integration",
         githubLink: "https://github.com/FinnStitcher/deep-thoughts-two",
         deployedLink: "https://deep-thoughts-two-production.up.railway.app/"
@@ -118,7 +123,7 @@ const projectsArray = [
 ];
 
 function Project({projectObj}) {
-    const {id, title, technologies, description, isSolo, role, githubLink, deployedLink} = projectObj;
+    const {id, title, technologies, description, isSolo, isAcademic, role, githubLink, deployedLink} = projectObj;
 
     return (
         <div className="col-12 col-md-6 project-width my-3">
@@ -130,7 +135,7 @@ function Project({projectObj}) {
 
                 <p className="subtitle">{technologies.join(', ')}</p>
 
-                <p className="mb-2"><b>{role}</b> {isSolo ? ' || Solo Project' : null}</p>
+                <p className="mb-2"><b>{role}</b> {isSolo ? ' || Solo Project' : null} {isAcademic ? '|| Academic' : null}</p>
 
                 {deployedLink ?
                     <p className="dark-links">{description} View it <a href={deployedLink}>live</a> or on <a href={githubLink}>GitHub</a>.</p>
