@@ -149,6 +149,10 @@ hr.border-five {
     background-image: url('../public/images/wildfound.png');
 }
 
+#setlist {
+    background-image: url('../public/images/setlist.png');
+}
+
 body {
     background: var(--six);
 }

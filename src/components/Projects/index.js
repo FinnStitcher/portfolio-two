@@ -2,6 +2,26 @@ import React from 'react';
 
 const projectsArray = [
     {
+        id: 'setlist',
+        title: 'Setlist',
+        technologies: [
+            'MongoDB',
+            'Mongoose',
+            'Node.js',
+            'Express.js',
+            'Handlebars.js',
+            'Tailwind'
+        ],
+        description: "Create playlists with all your favorite songs, with no fear of a video being taken down. Setlist is currently unfinished and in active development.",
+        isSolo: true,
+        isAcademic: false,
+        role: "Full-stack Developer",
+        githubLink: "https://github.com/FinnStitcher/setlist",
+        deployedLink: "https://setlist-development.up.railway.app/"
+
+    },
+
+    {
         id: "wildfound",
         title: "Wildfound",
         technologies: [
